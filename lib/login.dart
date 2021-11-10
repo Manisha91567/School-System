@@ -47,7 +47,6 @@ class _Login extends State<Login> {
                         if (value!.isEmpty) {
                           return ("Enter Your Email!");
                         }
-                        //Regular Expression for email validation
                         if (!RegExp(
                                 r"^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$")
                             .hasMatch(value)) {
